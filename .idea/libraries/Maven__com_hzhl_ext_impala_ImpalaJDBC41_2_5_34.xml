@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hzhl.ext.impala:ImpalaJDBC41:2.5.34">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hzhl/ext/impala/ImpalaJDBC41/2.5.34/ImpalaJDBC41-2.5.34.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hzhl/ext/impala/ImpalaJDBC41/2.5.34/ImpalaJDBC41-2.5.34-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/hzhl/ext/impala/ImpalaJDBC41/2.5.34/ImpalaJDBC41-2.5.34-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

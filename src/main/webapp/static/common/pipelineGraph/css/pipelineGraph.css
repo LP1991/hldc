@@ -1,0 +1,629 @@
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide:not(.ng-hide-animate) {
+	display: none!important
+}
+.form-control{
+	height:34px !important;
+}
+.nav, .breadcrumb{
+	margin-bottom: 0 !important;
+	margin-bottom: 4px !important;
+}
+.form-group{
+	margin-bottom: 0 !important;
+	margin-bottom: 6px !important;
+}
+legend{
+	margin-bottom: 0 !important;
+	margin-bottom: 6px !important;
+}
+ng\:form {
+	display: block
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body .navbar-fixed-top {
+	height: 50px
+}
+
+body .navbar-fixed-top a.logo {
+	padding: 0 20px;
+	display: inline-block;
+	width: 260px;
+	height: 50px;
+	overflow: hidden;
+	float: left
+}
+
+body .navbar-fixed-top a.logo img {
+	width: 210px;
+	margin-top: -19px
+}
+
+body .navbar-fixed-top .remote-enabled-icon {
+	margin-right: 30px
+}
+
+body .navbar-fixed-top .navbar-brand {
+	border-left: 1px solid rgba(128, 128, 128, .19);
+	display: inline-block;
+	height: 28px;
+	margin-top: 11px;
+	padding-top: 3px;
+	padding-left: 13px;
+	color: #2bb8e9;
+	font-weight: 700
+}
+
+body .navbar-fixed-top .navbar-brand:hover {
+	color: #2bb8e9
+}
+
+body .navbar-fixed-top .navbar-nav {
+	padding-right: 10px
+}
+
+body .navbar-fixed-top .navbar-nav .menu-label {
+	display: none
+}
+
+body .navbar-fixed-top .navbar-nav .dpm-icon i {
+	color: #2bb8e9;
+	font-size: 2em
+}
+
+body .navbar-fixed-top .navbar-nav .dpm-icon.disconnected-mode i {
+	color: #d9534f
+}
+
+body .navbar-fixed-top .navbar-nav .dpm-icon span {
+	position: absolute;
+	font-size: 10px;
+	color: #fff;
+	top: 18px;
+	left: 19px
+}
+
+body .navbar-fixed-top .navbar-nav>li {
+	min-width: 50px
+}
+
+body .navbar-fixed-top .navbar-nav>li>a {
+	font-size: 1.05em;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+body .navbar-fixed-top .navbar-nav>li .dropdown-menu-radio-box {
+	padding-left: 10px
+}
+
+body .navbar-fixed-top .navbar-nav>li .density-check-icon {
+	left: 10px;
+	position: absolute;
+	padding-top: 3px
+}
+
+@media (max-width:768px) {
+	body .navbar-fixed-top .container-fluid .navbar-nav {
+		background-color: #f8f8f8
+	}
+	body .navbar-fixed-top .container-fluid .navbar-nav .menu-label {
+		display: inline;
+		padding-left: 5px;
+		position: absolute
+	}
+	body .navbar-fixed-top .container-fluid .navbar-nav .tooltip {
+		visibility: hidden
+	}
+}
+
+@media (min-width:768px) {
+	body .navbar-fixed-top .container-fluid .navbar-nav>li {
+		height: 50px
+	}
+}
+
+body .dropdown-header {
+	font-size: 14px
+}
+
+body .page-panel {
+	margin-top: 50px;
+	height: 100%;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+body .page-panel .panel-title h3 {
+	margin: 0;
+	font-size: 20px
+}
+
+body .icon-danger {
+	color: #d9534f
+}
+
+body .icon-success {
+	color: #5cb85c
+}
+
+body .pointer {
+	cursor: pointer
+}
+
+body .modal-backdrop {
+	bottom: 0
+}
+
+body .tooltip {
+	word-wrap: break-word
+}
+
+body .btn-icon {
+	background-color: transparent
+}
+
+body .btn-icon:hover {
+	background-color: transparent
+}
+
+body .btn-icon:focus {
+	background-color: transparent
+}
+
+body .icon-button {
+	color: #777;
+	margin-left: 10px
+}
+
+body .icon-button:hover {
+	color: #333
+}
+
+body .icon-button-danger {
+	color: #d9534f;
+	margin-left: 10px
+}
+
+body .icon-button-danger:hover {
+	color: #c9302c
+}
+
+body .help-icon {
+	cursor: help;
+	font-size: 1.2em;
+	color: #CCC;
+	padding-left: 5px
+}
+
+body .dropdown-header {
+	padding: 3px 12px
+}
+
+body .form-group .help-block {
+	display: none
+}
+
+body .form-group.has-error .help-block {
+	display: inherit
+}
+
+
+
+
+
+body .dropdown-menu {
+	overflow: auto;
+	max-width: 480px
+}
+
+
+
+pipeline-graph .graph-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+pipeline-graph .graph-container svg:focus {
+	outline: 0
+}
+
+pipeline-graph .graph-container .graph-toolbar {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar {
+	position: relative;
+	border: 1px solid #ccc;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 390px;
+	border-radius: 390px;
+	list-style-type: none;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+	width: 60px;
+	height: 60px;
+	bottom: 150px;
+	right: 30px;
+	background-color: #fff;
+	background-clip: padding-box;
+	float: right
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar span {
+	cursor: pointer;
+	font-size: .9em;
+	color: #777
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar span:hover {
+	color: #333
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar .pan-up {
+	left: 23px
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar .pan-right {
+	left: 42px
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar .pan-home {
+	left: 22px;
+	top: -19px
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar .pan-left {
+	left: 3px;
+	top: -39px
+}
+
+pipeline-graph .graph-container .graph-toolbar .pan-toolbar .pan-down {
+	left: 23px;
+	top: -40px
+}
+
+pipeline-graph .graph-container .graph-toolbar .zoom-toolbar {
+	position: relative;
+	float: right;
+	top: -80px;
+	right: -12px;
+	color: #777;
+	background-color: #fff;
+	background-clip: padding-box;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3)
+}
+
+pipeline-graph .graph-container .graph-toolbar .zoom-toolbar div {
+	padding: 2.5px 7px
+}
+
+pipeline-graph .graph-container .graph-toolbar .zoom-toolbar div span:hover {
+	color: #333
+}
+
+pipeline-graph .graph-container .graph-toolbar .action-toolbar {
+	float: right;
+	position: relative;
+	right: 0;
+	bottom: 50px
+}
+
+pipeline-graph .graph-container .graph-toolbar .action-toolbar .icon-button {
+	cursor: pointer
+}
+
+pipeline-graph .graph-container .warning-toolbar {
+	position: relative;
+	float: left;
+	top: -60px;
+	left: 30px
+}
+
+pipeline-graph .conceptG text {
+	pointer-events: none
+}
+
+pipeline-graph .node-warning {
+	position: static;
+	padding: 2px;
+	font-size: 22px;
+	color: #d9534f
+}
+
+pipeline-graph .node-config {
+	color: #777
+}
+
+pipeline-graph marker {
+	fill: #ccc
+}
+
+pipeline-graph g.rectangleG .lane-number {
+	fill: #000
+}
+
+pipeline-graph g.rectangleG rect {
+	fill: #ccc;
+	stroke: #8a8787;
+	stroke-width: 2px
+}
+
+pipeline-graph g.rectangleG circle {
+	fill: #fff;
+	stroke: #8a8787;
+	stroke-width: 2px
+}
+
+pipeline-graph g.rectangleG circle.dirty {
+	fill: #d9534f;
+	stroke: #d9534f
+}
+
+pipeline-graph g.rectangleG:hover rect {
+	fill: #428bca;
+	stroke: #428bca;
+	opacity: .6
+}
+
+pipeline-graph g.rectangleG:hover circle {
+	stroke: #428bca
+}
+
+pipeline-graph g.rectangleG:hover circle.dirty {
+	fill: #d9534f;
+	stroke: #d9534f
+}
+
+pipeline-graph g.rectangleG:hover text {
+	cursor: default;
+	fill: #fff
+}
+
+pipeline-graph g.rectangleG:hover text.lane-number {
+	fill: #000
+}
+
+pipeline-graph g.rectangleG:hover image {
+	fill: #fff
+}
+
+pipeline-graph g.rectangleG:hover .node-config {
+	color: #000
+}
+
+pipeline-graph g.selected rect {
+	fill: #428bca;
+	stroke: #428bca
+}
+
+pipeline-graph g.selected circle {
+	stroke: #428bca
+}
+
+pipeline-graph g.selected circle.dirty {
+	fill: #d9534f;
+	stroke: #d9534f
+}
+
+pipeline-graph g.selected text {
+	fill: #fff
+}
+
+pipeline-graph g.selected image {
+	fill: #fff
+}
+
+pipeline-graph g.selected .node-config {
+	color: #000
+}
+
+pipeline-graph g.selected:hover rect {
+	fill: #428bca;
+	stroke: #428bca;
+	opacity: 1
+}
+
+pipeline-graph g.startNode rect {
+	fill: #5cb85c;
+	stroke: #5cb85c
+}
+
+pipeline-graph g.startNode circle {
+	stroke: #5cb85c
+}
+
+pipeline-graph g.startNode text {
+	fill: #fff
+}
+
+pipeline-graph g.startNode image {
+	fill: #fff
+}
+
+pipeline-graph g.startNode:hover rect {
+	fill: #5cb85c;
+	stroke: #5cb85c;
+	opacity: 1
+}
+
+pipeline-graph g.endNode rect {
+	fill: #f66;
+	stroke: #f66
+}
+
+pipeline-graph g.endNode circle {
+	stroke: #f66
+}
+
+pipeline-graph g.endNode text {
+	fill: #fff
+}
+
+pipeline-graph g.endNode image {
+	fill: #fff
+}
+
+pipeline-graph g.endNode:hover rect {
+	fill: #f66;
+	stroke: #f66;
+	opacity: 1
+}
+
+pipeline-graph g.connect-node rect {
+	fill: #428bca;
+	stroke: #428bca;
+	opacity: .75
+}
+
+pipeline-graph g.pathG .link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 6px;
+	cursor: default
+}
+
+pipeline-graph g.pathG .link:hover {
+	stroke: #428bca
+}
+
+pipeline-graph g.pathG .link.hidden {
+	stroke-width: 0
+}
+
+pipeline-graph g.pathG .edge-preview {
+	color: #dddada;
+	position: static
+}
+
+pipeline-graph g.pathG .edge-preview.alerts-defined {
+	color: #aaa7a7
+}
+
+pipeline-graph g.pathG .edge-preview.active-alerts-defined {
+	color: #7f7c7c
+}
+
+pipeline-graph g.pathG .edge-preview.alert-triggered {
+	color: #d9534f
+}
+
+pipeline-graph g.pathG.selected .link {
+	stroke: #428bca !important;
+	opacity: .8
+}
+
+pipeline-graph .dragline {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 6px;
+	cursor: default
+}
+
+pipeline-graph .dragline.hidden {
+	stroke-width: 0
+}
+
+pipeline-graph .axis line {
+	fill: none;
+	stroke: #EFEFEF;
+	shape-rendering: crispEdges;
+	vector-effect: non-scaling-stroke
+}
+
+body{
+      		overflow-y:scroll !important;
+    	}
+    	.drag_height{
+    		width:6px;
+    		height:10px;
+    		position:absolute;
+    		left:50%;
+    		bottom:0;
+    		background:red;
+    	}
+    	.container_box{
+    		position:relative;
+    	}
+       table.dataintable {
+            /* margin-top: 10px; */
+            border-collapse: collapse;
+            border: 1px solid #aaa;
+            width: 49%;
+            float:left;
+        }
+        
+            table.dataintable th {
+                vertical-align: baseline;
+                padding: 5px 15px 5px 6px;
+                background-color: #d5d5d5;
+                border: 1px solid #aaa;
+                text-align: left;
+            }
+
+            table.dataintable td {
+                vertical-align: text-top;
+                background-color: #efefef;
+                border: 1px solid #aaa;
+            }
+
+            table.dataintable pre {
+                width: auto;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                background-color: transparent;
+            }
+            table.dataintable p {
+                margin: 0 0 2px 0;
+            }
+            table.dataintable:nth-child(2) td{
+              height:24px !important;
+            }
+            .hideClass tr:not(:first-child){
+		    	display:none;
+		    }
+           /* 映射表样式 */
+           .map_table{
+           		width:34%;height:auto;float:left;position:absolute;left:0;top:0;z-index:20;
+           }
+           .map_table>table{
+           		width:100%;
+           }
+           .xAxis{
+           		stroke:blue;
+           }
+          /* 顶部操作按钮  */
+          .pipeline_btn{
+          	width:auto;
+          	min-width:30%;
+          	height:auto;
+          }
+          .btn_active{
+          	position:fixed;
+          	left:0;top:0;
+          }
+          .ui-select-match-text{
+          	width: 100%;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+          }
+           #profile .choice_hive input.ui-select-search{
+           	  width:400px; 
+           }

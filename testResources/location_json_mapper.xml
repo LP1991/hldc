@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="/rest/rtls/locationmap" url="http://localhost:8800/db/rest/rtls/locationmap">
+	<table schema="bd_source" tableName="wifi_locationmap">
+		<field property="mapId">MAPID</field>
+		<field property="mapName">MAPNAME</field>
+		<field property="regionPath">REGIONPATH</field>
+		<field property="regionPathName">REGIONPATHNAME</field>
+		<field property="width">MAPWIDTH</field>
+		<field property="height">MAPHEIGHT</field>
+		<field property="scale">scale</field>
+		<field property="aps">APLIST</field>
+		<field property="obstacles">OBSTACLESLIST</field>
+		<field property="coverages">COVERAGESLIST</field>
+	</table>
+</mapper>

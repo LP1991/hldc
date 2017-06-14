@@ -1,0 +1,54 @@
+{
+  "id":"default",
+  "url":"http://localhost:8800/db/rest/rtls/locationmap",
+  "namespace":"/rest/rtls/locationmap",
+  "tableName":"wifi_locationmap",
+  "schema":"bd_source",
+  "fields":{
+      "mapId":"MAPID",
+      "mapName":"MAPNAME",
+      "regionPath":"REGIONPATH",
+      "regionPathName":"REGIONPATHNAME",
+      "width":"MAPWIDTH",
+      "height":"MAPHEIGHT",
+      "scale":"scale",
+      "aps":{
+        "id":"objId",
+        "tableName":"wifi_apsinmap",
+        "fields": {
+          "mac": "APMAC",
+          "y": "APATMAPY",
+          "x": "APATMAPX"
+        }
+      },
+      "obstacles": {
+        "id": "objId",
+        "tableName": "wifi_obstaclesinmap",
+        "fields": {
+          "obstacleID": "obstacleID",
+          "attenuation": "APATMAPY",
+          "thickness": "APATMAPY",
+          "shape": "APATMAPY",
+          "width": "APATMAPY",
+          "height": "APATMAPY",
+          "points": {
+            "id": "objId",
+            "tableName": "wifi_point",
+            "fields": {
+              "x": "POINTX",
+              "y": "POINTY",
+              "z": "POINTZ"
+            }
+          }
+        },
+        "coverages": {
+          "id": "objId",
+          "tableName": "wifi_mapsinmap",
+          "fields": {
+            "id": "CHILDMAPID",
+            "name": "CHILDMAPNAME"
+          }
+        }
+      }
+  }
+}

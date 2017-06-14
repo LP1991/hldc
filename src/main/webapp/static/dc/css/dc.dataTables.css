@@ -1,0 +1,25 @@
+.dataTable  thead tr{
+    background-color: #639dd8 ;
+    color:#ffffff;
+    border-bottom: 1px solid #12BAD5;
+}
+table.dataTable thead th, table.dataTable thead td{
+    border-bottom: 1px solid transparent!important;
+}
+table.dataTable.stripe tbody tr.odd,table.dataTable.display tbody tr.odd{
+    background-color: #F6F7FB ;
+    color:#838C89;
+}
+.dataTable  tbody .even{
+    color:#838C89;
+}
+.table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover{
+
+    background-color: #C5e0eB ;
+}
+/*table.dataTable tbody{
+    border-bottom: 1px solid #e8e8e8;
+}*/
+table.dataTable.no-footer {
+    border-bottom: 1px solid #e8e8e8;
+}

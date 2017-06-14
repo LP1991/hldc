@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context-4.0.xsd" >
+		
+	<description>Spring quarts tasks</description>
+    <!-- 要调用的工作类 -->    
+    <bean id="quartzDemo" class="com.hlframe.modules.dc.schedule.service.DcDemoTaskService"/>
+        
+    <!-- 定义调用对象和调用对象的方法 -->    
+    <bean id="dcTaskDemo" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">    
+        <!-- 调用的类 -->    
+        <property name="targetObject">    
+            <ref bean="quartzDemo"/>    
+        </property>    
+        <!-- 调用类中的方法 -->    
+        <property name="targetMethod">    
+            <value>checkEsIndex</value>    
+        </property>    
+    </bean>    
+        
+    <!-- 定义触发时间 -->    
+    <bean id="dcScheduleDemo" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">    
+        <property name="jobDetail">    
+            <ref bean="dcTaskDemo"/>    
+        </property>    
+        <property name="cronExpression">    
+            <value>0 0/5 * * * ?</value> <!-- 每5分执行一次  测试... --> 
+        	<!-- <value>0 10 00 ? * *</value> 每天凌晨0:10执行 --> 
+        </property>    
+    </bean>
+    
+    <!--  quartz的调度工厂 调度工厂只能有一个，多个调度任务在list中添加  如果将lazy-init='false'那么容器启动就会执行调度程序  -->    
+    <bean id="startQuartz" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">    
+        <property name="triggers">    
+            <list>    
+                <!-- <ref bean="dcScheduleDemo"/> 其他调度任务 逐步添加到列表 -->
+            </list>    
+        </property>    
+    </bean>    
+</beans>
