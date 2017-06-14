@@ -704,15 +704,5 @@
 	  <version>1.0</version>
 	</dependency>
 	<!-- add by peijd at 2016/11/30 end  -->
-	  <dependency>
-		  <groupId>org.apache.flume.flume-ng-clients</groupId>
-		  <artifactId>flume-ng-log4jappender</artifactId>
-		  <version>1.6.0-cdh5.8.2</version>
-	  </dependency>
-	  <dependency>
-		  <groupId>org.apache.flume</groupId>
-		  <artifactId>flume-ng-core</artifactId>
-		  <version>1.6.0-cdh5.8.2</version>
-	  </dependency>
   </dependencies>
 </project>
